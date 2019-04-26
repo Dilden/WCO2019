@@ -18,13 +18,17 @@ body {
 }
 
 /* Navigation */
-//.main-navigation, .main-small-navigation {
-//	background: $dark_blue;
-//	a {
-//		color: $red;
-//		background: $dark_blue;
-//		&:hover {
-//			color: $white;
-//		}
-//	}
-//}
+nav.main-navigation, nav.main-small-navigation {
+	background: $dark_blue;
+	.menu {
+		li {
+			a {
+				color: $red;
+				background: $dark_blue;
+				&:hover {
+					color: $white;
+				}
+			}
+		}
+	}
+}
