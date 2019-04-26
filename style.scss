@@ -21,6 +21,8 @@ body {
 nav.main-navigation, nav.main-small-navigation {
 	background: $dark_blue;
 	.menu {
+		border-bottom: 4px solid $light_blue;
+		border-top: 4px solid $light_blue;
 		li {
 			a {
 				color: $red;
