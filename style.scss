@@ -13,8 +13,16 @@ $light_blue: #83cddc;
 $dark_blue: #26384e;
 $white: #f6fafa;
 
-body {
-	background-color: $white;
+html {
+	body {
+		background-color: $white;
+		a {
+			color: $red;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
 }
 
 /* Navigation */
