@@ -16,3 +16,15 @@ $white: #f6fafa;
 body {
 	background-color: $white;
 }
+
+/* Navigation */
+.main-navigation, .main-small-navigation {
+	background: $dark_blue;
+	a {
+		color: $red;
+		background: $dark_blue;
+		&:hover {
+			color: $white;
+		}
+	}
+}
