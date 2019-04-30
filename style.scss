@@ -15,27 +15,27 @@ $white: #f6fafa;
 
 
 /* General */
-h1 {
-	font-size: 40px;
-}
-h2 {
-	font-size: 32px;
-}
-h3 {
-	font-size: 24px;
-}
-h4 {
-	font-size: 20px;
-}
-h5 {
-	font-size: 16px;
-}
-h6 {
-	font-size: 12px;
-}
+//h1 {
+//	font-size: 40px;
+//}
+//h2 {
+//	font-size: 32px;
+//}
+//h3 {
+//	font-size: 24px;
+//}
+//h4 {
+//	font-size: 20px;
+//}
+//h5 {
+//	font-size: 16px;
+//}
+//h6 {
+//	font-size: 12px;
+//}
 
 html {
-	font-size: 12px;
+	//font-size: 12px;
 	body {
 		background-color: $white;
 		a {
@@ -59,10 +59,10 @@ nav.main-navigation, nav.main-small-navigation {
 		border-top: 4px solid $blue;
 		li {
 			a {
-				color: $white;
+				color: $red;
 				background: $dark_blue;
 				&:hover {
-					color: $red;
+					color: $white;
 				}
 			}
 		}
