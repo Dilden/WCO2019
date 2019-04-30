@@ -50,10 +50,12 @@ html {
 		color: $white;
 		border-radius: 2px;
 		text-shadow: none;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
 		@include transition(all, .3, ease);
 		&:hover {
 			color: $red;
-			background: $blue;
 			border: none;
 		}
 	}
