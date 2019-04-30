@@ -88,12 +88,15 @@ html {
 		}
 		/* Content */
 		#main {
-			#content {
-				.wp-post-image {
-					display: none;
-				}
-				.entry-title {
-					top: 0;
+			#primary {
+				margin-top: 100px;
+				#content {
+					.wp-post-image {
+						display: none;
+					}
+					.entry-title {
+						top: 0;
+					}
 				}
 			}
 		}
