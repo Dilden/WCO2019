@@ -46,6 +46,8 @@ html {
 		text-shadow: none;
 		&:hover {
 			color: $red;
+			background: $blue;
+			border: none;
 		}
 	}
 	body, body.single-wcb_sponsor {
