@@ -36,17 +36,13 @@ h6 {
 
 html {
 	font-size: 12px;
-	body {
+	body, body.single-wcb_sponsor {
 		background-color: $white;
 		//a {
 		//	color: $red;
 		//	&:hover {
 		//		color: $dark_blue;
 		//	}
-		//}
-		//.site-content {
-		//	max-width: 80%;
-		//	margin: 0 auto;
 		//}
 		
 		/* Navigation */
@@ -66,6 +62,20 @@ html {
 				}
 			}
 		}
+		#main {
+			#content {
+				.wp-post-image {
+					top: 0;
+				}
+				.entry-title {
+					top: 0;
+				}
+			}
+		}
 	}
 }
-
+:root {
+  --primary1: #253E52;
+	--primary2: #D87D68;
+	--primary3: #7BC6DB;
+}
