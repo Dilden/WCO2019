@@ -48,23 +48,24 @@ html {
 			max-width: 80%;
 			margin: 0 auto;
 		}
-	}
-}
-
-/* Navigation */
-nav.main-navigation, nav.main-small-navigation {
-	background: $dark_blue;
-	.menu {
-		border-bottom: 4px solid $blue;
-		border-top: 4px solid $blue;
-		li {
-			a {
-				color: $red;
-				background: $dark_blue;
-				&:hover {
-					color: $white;
+		
+		/* Navigation */
+		nav.main-navigation, nav.main-small-navigation {
+			background: $dark_blue;
+			.menu {
+				border-bottom: 4px solid $blue;
+				border-top: 4px solid $blue;
+				li {
+					a {
+						color: $red;
+						background: $dark_blue;
+						&:hover {
+							color: $white;
+						}
+					}
 				}
 			}
 		}
 	}
 }
+
