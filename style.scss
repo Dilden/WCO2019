@@ -13,7 +13,13 @@ $light_blue: #83cddc;
 $dark_blue: #26384e;
 $white: #f6fafa;
 
-
+/* Mixins */
+@mixin transition($prop, $duration, $timing: ease-in-out) {
+	-moz-transition: $prop $duration $timing;
+	-o-transition: $prop $duration $timing;
+	-webkit-transition: $prop $duration $timing;
+	transition: $prop $duration $timing; 
+}
 
 html {
 	font-size: 12px;
@@ -44,6 +50,7 @@ html {
 		color: $white;
 		border-radius: 2px;
 		text-shadow: none;
+		@include transition(all, .3, ease);
 		&:hover {
 			color: $red;
 			background: $blue;
