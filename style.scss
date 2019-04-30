@@ -65,7 +65,7 @@ html {
 		#main {
 			#content {
 				.wp-post-image {
-					top: 0;
+					display: none;
 				}
 				.entry-title {
 					top: 0;
@@ -73,9 +73,4 @@ html {
 			}
 		}
 	}
-}
-:root {
-  --primary1: #253E52;
-	--primary2: #D87D68;
-	--primary3: #7BC6DB;
 }
