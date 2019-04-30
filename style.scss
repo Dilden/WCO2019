@@ -14,28 +14,40 @@ $dark_blue: #26384e;
 $white: #f6fafa;
 
 
-/* General */
-h1 {
-	font-size: 40px;
-}
-h2 {
-	font-size: 32px;
-}
-h3 {
-	font-size: 24px;
-}
-h4 {
-	font-size: 20px;
-}
-h5 {
-	font-size: 16px;
-}
-h6 {
-	font-size: 12px;
-}
 
 html {
 	font-size: 12px;
+	
+	/* General */
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	h6 {
+		font-size: 12px;
+	}
+	button {
+		background: $dark_blue;
+		border: none;
+		box-shadow: none;
+		color: $white;
+		border-radius: 2px;
+		text-shadow: none;
+		&:hover {
+			color: $red;
+		}
+	}
 	body, body.single-wcb_sponsor {
 		background-color: $white;
 		//a {
@@ -62,6 +74,7 @@ html {
 				}
 			}
 		}
+		/* Content */
 		#main {
 			#content {
 				.wp-post-image {
