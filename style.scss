@@ -33,10 +33,10 @@ nav.main-navigation, nav.main-small-navigation {
 		border-top: 4px solid $blue;
 		li {
 			a {
-				color: $red;
+				color: $white;
 				background: $dark_blue;
 				&:hover {
-					color: $white;
+					color: $red;
 				}
 			}
 		}
