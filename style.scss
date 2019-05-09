@@ -54,7 +54,7 @@ html {
 		font-weight: bold;
 		text-transform: uppercase;
 		font-family: 'Raleway', sans-serif;
-		@include transition(color, .25s, ease);
+		@include transition(all, .25s, ease);
 		&:hover {
 			color: $red;
 			background: $btn_hover_blue;
