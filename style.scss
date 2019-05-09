@@ -11,6 +11,7 @@ $red: #d7695c;
 $blue: #42627f;
 $light_blue: #83cddc;
 $dark_blue: #26384e;
+$btn_hover_blue: #38516f;
 $white: #f6fafa;
 
 /* Mixins */
@@ -56,7 +57,7 @@ html {
 		@include transition(color, .25s, ease);
 		&:hover {
 			color: $red;
-			background: $dark_blue;
+			background: $btn_hover_blue;
 			border: none;
 		}
 	}
@@ -76,15 +77,6 @@ html {
 			.menu {
 				border-bottom: 4px solid $blue;
 				border-top: 4px solid $blue;
-				li {
-				//	a {
-				//		color: $red;
-				//		background: $dark_blue;
-				//		&:hover {
-				//			color: $white;
-				//		}
-				//	}
-				}
 			}
 		}
 		/* Content */
