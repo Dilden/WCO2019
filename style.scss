@@ -65,8 +65,11 @@ html {
 		a {
 			color: $red;
 			@include transition(color, .25s, ease);
-			&:hover {
+			&:hover, &:active {
 				color: $dark_blue;
+			}
+			&:visited {
+				color: $light_blue;
 			}
 		}
 		
