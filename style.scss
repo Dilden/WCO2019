@@ -64,6 +64,7 @@ html {
 		background-color: $white;
 		a {
 			color: $red;
+			@include transisition(color, .25s, ease);
 			&:hover {
 				color: $dark_blue;
 			}
