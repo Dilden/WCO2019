@@ -62,12 +62,12 @@ html {
 	}
 	body, body.single-wcb_sponsor {
 		background-color: $white;
-		//a {
-		//	color: $red;
-		//	&:hover {
-		//		color: $dark_blue;
-		//	}
-		//}
+		a {
+			color: $red;
+			&:hover {
+				color: $dark_blue;
+			}
+		}
 		
 		/* Navigation */
 		nav.main-navigation, nav.main-small-navigation {
