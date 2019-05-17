@@ -125,7 +125,10 @@ html {
 				}
 			}
 		}
-		body {
+		body.home {
+			#masthead.site-header {
+				min-height: 230px;
+			}
 			nav.main-small-navigation {
 				position: relative !important;
 			}
