@@ -61,6 +61,18 @@ html {
 			border: none;
 		}
 	}
+	/* Header */
+	#masthead {
+		.site-title {
+			a {
+				&:before {
+					content: none
+				}
+			}
+		}
+	}
+
+	/* Body */
 	body, body.single-wcb_sponsor {
 		background-color: $white;
 		a, a:visited {
@@ -98,6 +110,25 @@ html {
 						top: 0;
 					}
 				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:615px) {
+	html {
+		#masthead {
+			h1.site-title {
+				a {
+					max-height: 150px;
+					&:before {
+						content: none; 
+					}
+				}
+			}
+		}
+		body {
+			nav.main-small-navigation {
 			}
 		}
 	}
