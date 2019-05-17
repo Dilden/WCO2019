@@ -121,9 +121,7 @@ html {
 			h1.site-title {
 				a {
 					max-height: 150px;
-					&:before {
-						content: none; 
-					}
+					top: 0;
 				}
 			}
 		}
