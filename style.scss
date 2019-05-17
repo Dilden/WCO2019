@@ -133,5 +133,12 @@ html {
 				position: relative !important;
 			}
 		}
+		body, body.single-wcb_sponsor {
+			#main {
+				#primary {
+					margin-top: 40px;
+				}
+			}
+		}
 	}
 }
