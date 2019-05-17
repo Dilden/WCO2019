@@ -78,10 +78,14 @@ html {
 				border-bottom: 4px solid $blue;
 				border-top: 4px solid $blue;
 			}
+			
+		}
+		nav.main-small-navigation{
 			#menu-item-223 {
 				display: none;
 			}
 		}
+		
 		/* Content */
 		#main {
 			#primary {
@@ -92,21 +96,6 @@ html {
 					}
 					.entry-title {
 						top: 0;
-					}
-				}
-			}
-		}
-	}
-}
-
-
-@media screen and (min-width:960px) {
-	html {
-		body {
-			nav.main-navigation, nav.main-small-navigation {
-				a {
-					&:hover {
-						color: #d87d68;	
 					}
 				}
 			}
