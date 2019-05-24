@@ -117,6 +117,11 @@ html {
 	.wcorg-organizer {
 		display: inline-block;
 		width: 48%;
+		vertical-align: top;
+		img.avatar {
+			float: left;
+			padding: 6px;
+		}
 	}
 }
 
