@@ -115,7 +115,7 @@ html {
 					}
 					.wcorg-sponsors {
 						h2 {
-							background-color: $dark_blue;
+							background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,0) 39%,#26384e 40%,#26384e 60%,rgba(255,255,255,0) 61%,rgba(255,255,255,0) 100%);
 							color: $white;
 						}
 					}
