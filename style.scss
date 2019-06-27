@@ -115,6 +115,16 @@ html {
 			}
 		}
 	}
+	/* Organizers */
+	.wcorg-organizer {
+		display: inline-block;
+		width: 48%;
+		vertical-align: top;
+		img.avatar {
+			float: left;
+			padding: 6px;
+		}
+	}
 }
 
 @media screen and (max-width:615px) {
@@ -141,6 +151,10 @@ html {
 				#primary {
 					margin-top: 40px;
 				}
+			}
+			.wcorg-organizer {
+				display: block;
+				width: auto;
 			}
 		}
 	}
